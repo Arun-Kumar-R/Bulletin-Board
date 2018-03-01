@@ -1,0 +1,44 @@
+.alert-error{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.alert-success_msg{
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+footer p
+{
+  text-align :center;
+  font-size:35px;
+  color:purple;
+}
+li a
+{
+  color:green;
+ 
+  font-size:20px;
+  font-variant:small-caps;
+ 
+}
+li a:hover
+{
+  color:red;
+  text-decoration: none;
+  
+}
+h5,h1
+{
+  font-variant: small-caps;
+  color:green;
+
+}
+p
+{
+  font-size:20px;
+  color:red;
+  text-align:center;
+  font-weight:bold;
+}
