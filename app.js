@@ -24,6 +24,9 @@ db.on('error', function(err){
 // Init App
 const app = express();
 
+//port set
+const port = process.env.PORT || 8000;
+
 // Bring in Models
 let Article = require('./models/article');
 
@@ -113,6 +116,6 @@ app.use('/articles', articles);
 app.use('/users', users);
 
 // Start Server
-app.listen(4004, function(){
-  console.log('Server started on port 4004...');
+app.listen(port, function(){
+  console.log('Server started on port:'+port);
 });
